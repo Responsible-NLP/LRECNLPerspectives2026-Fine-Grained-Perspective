@@ -18,7 +18,7 @@ This repository contains the code for our paper submitted to the NLPerspectivist
 2. ** the retrieval**: top-K similar training examples + explanation snippets
 3. **LLM explainer**: generates **annotator** explanations (using the annotator's rationales)
 
-## Date files
+## Data files
 from [Learning With Disagreement 2025 (LeWiDi 2025)](https://www.codabench.org/competitions/7192/#/phases-tab)
 
 - `VariErrNLI_train.json`
