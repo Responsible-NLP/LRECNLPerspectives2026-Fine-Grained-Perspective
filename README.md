@@ -1,7 +1,7 @@
 # LRECNLPerspectives2026-Fine-Grained-Perspective
 Code for LREC-NLPerspectives 5th Workshop publication "Fine-Grained Perspectives: Modeling Explanations with Annotator-Specific Rationales"
 
-This repository contains the code for our paper submitted to the NLPerspectives workshop at LREC 2026 (5th Workshop on Perspectivist Approaches to NLP) and implements the full pipeline described in our publication. If you use this repository, please cite our paper.
+This repository contains the code for our paper submitted to the NLPerspectivist workshop at LREC 2026 (5th Workshop on Perspectivist Approaches to NLP) and implements the full pipeline described in our publication. If you use this repository, please cite our paper.
 
 ```
 @inproceedings{sarumi-2026-Fine-Grained-perspective,
