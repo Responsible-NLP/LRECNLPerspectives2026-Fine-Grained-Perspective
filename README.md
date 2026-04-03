@@ -21,9 +21,9 @@ This repository contains the code for our paper submitted to the NLPerspectivist
 ## Data files
 from [Learning With Disagreement 2025 (LeWiDi 2025)](https://www.codabench.org/competitions/7192/#/phases-tab)
 
-- `VariErrNLI_train.json`
-- `VariErrNLI_dev.json`
-- `VariErrNLI_annotators_meta.json` (note: has trailing commas; code auto-fixes)
+- VariErrNLI_train.json
+- VariErrNLI_dev.json
+- VariErrNLI_annotators_meta.json (note: has trailing commas; code auto-fixes)
 
 ## Quickstart
 
@@ -74,11 +74,11 @@ python scripts/train_explainer_prefix.py   --train_json ./dataset/VariErrNLI_tra
 python scripts/infer.py   --ckpt_dir runs/clf_deberta   --thresholds_json runs/clf_deberta/thresholds.json   --explainer_dir runs/explainer_prefix_flan_t5   --retrieval_dir runs/retrieval   --use_retrieval 1   --top_k 5   --context "A person is in a kitchen, chopping vegetables on a cutting board."   --statement "The person is cooking dinner."
 ```
 
-If you pass an explainer dir that contains `bridge_config.json` (trained via _4b_), the inference script automatically uses the prefix bridge.
+If you pass an explainer dir that contains bridge_config.json (trained via _4b_), the inference script automatically uses the prefix bridge.
 
 ### 6) Truthfulness evaluation for explanations (recommended)
 
-### a) We train a small _judge_ model that predicts the label-set from `(context, statement + explanation)`.
+### a) We train a small _judge_ model that predicts the label-set from (context, statement + explanation).
 Then we score generated explanations by whether the judge recovers the intended label-set.
 
 ```bash
