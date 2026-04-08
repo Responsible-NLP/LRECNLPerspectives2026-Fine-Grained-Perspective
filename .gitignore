@@ -1,0 +1,23 @@
+# Ignore large files
+*.pt
+*.bin
+*.ckpt
+*.model
+
+
+# Data folders
+dataset/
+runs/
+runs-experiment1/
+checkpoints/
+
+# Logs
+*.log
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual env
+venv/
+.env

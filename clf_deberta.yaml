@@ -1,0 +1,10 @@
+model_name: microsoft/deberta-v3-base
+max_length: 256
+batch_size: 8
+epochs: 8
+lr: 2.0e-5
+weight_decay: 0.01
+lambda_soft: 1.0
+annotator_emb_dim: 64
+use_meta: 1
+seed: 2026
